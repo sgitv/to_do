@@ -1,0 +1,8 @@
+database name 		= todo
+table name 		= items
+create columns		= id,name,user,done,created;
+varables        	= id=int(11)
+	   name		= TEXT-------autoincrement-unsigned,default-Non	
+	   user		= int(11)----default-null
+	   done		= TINYINT(1)-default-null
+	   created	= datetime  -default-null		
